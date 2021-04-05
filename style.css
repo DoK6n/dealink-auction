@@ -1,0 +1,69 @@
+#list {
+  width: 650px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.auction {
+  margin-top: 10px;
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  
+}
+
+.productImage {
+  height: 200px;
+  background-size: contain;
+}
+
+.remainingTime {
+  display: inline-block;
+  align-items: center;
+  height: 25px;
+  margin: 5px;
+  padding: 3px 5px 0 5px;
+  border-radius: 5px;
+  background-color: #00000979;
+  color: #fff;
+  font-size: small;
+  font-weight: bold;
+}
+
+.dibs {
+  position: relative;
+  left: 158px;
+  top: 142px;
+  width: 40px;
+  border: 1px solid tomato;
+  color: tomato;
+  font-weight: bold;
+  font-size: smaller;
+  background-color: #fff;
+  text-align: center;
+}
+
+.productInfo {
+  border: 1px solid lightgray;
+  padding-left: 10px;
+  height: 90px;
+}
+
+.productName {
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.price {
+  font-weight: bold;
+  width: 180px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
